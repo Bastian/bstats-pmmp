@@ -52,7 +52,7 @@ class SubmitDataTask extends AsyncTask
             return;
         }
 
-        $this->setResult("response: " . $result->getBody());
+        $this->setResult($result->getBody());
     }
 
     public function onCompletion(): void
