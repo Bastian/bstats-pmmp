@@ -95,6 +95,7 @@ class MetricsConfig
             "# bStats enabled, but if you're not comfortable with this, you can turn this setting off.",
             "# There is no performance penalty associated with having metrics enabled, and data sent to",
             "# bStats is fully anonymous.",
+            "# Learn more here: https://bstats.org/docs/server-owners",
             "enabled=" . ($this->defaultEnabled ? "true" : "false"),
             "server-uuid=" . self::generateUuidV4(),
             "log-errors=false",
